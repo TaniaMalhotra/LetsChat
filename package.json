@@ -1,0 +1,21 @@
+{
+  "name": "lets-chat",
+  "version": "1.0.0",
+  "description": "A chatting application with rooms ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Tania Malhotra",
+  "license": "ISC",
+  "engines": {
+    "MongoDB": "^3.5.9"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    
+    "mongoose": "^5.9.20",
+    "socket.io": "^2.3.0"
+  }
+}
